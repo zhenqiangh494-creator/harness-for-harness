@@ -1,0 +1,11 @@
+{
+  "max_iterations": 3,
+  "target_score": 1.0,
+  "commands": [
+    {
+      "name": "unit",
+      "command": "python -m unittest discover -s tests",
+      "timeout_seconds": 120
+    }
+  ]
+}
